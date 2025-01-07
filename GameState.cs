@@ -17,7 +17,7 @@ public class GameState
         Board[3, 3] = Player.White;
         Board[3, 4] = Player.Black;
         Board[4, 3] = Player.Black;
-        Board[4, 4] = Player.Black;
+        Board[4, 4] = Player.White;
 
         DiscCount = new Dictionary<Player, int>()
         {

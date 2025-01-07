@@ -1,3 +1,4 @@
+[System.Serializable]
 public class Position
 {
     public int Row { get; set; }

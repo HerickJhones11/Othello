@@ -18,4 +18,17 @@ public static class PlayerExtensions
 
         return Player.None;
     }
+    public static string StringColor(this Player player)
+    {
+        if (player == Player.Black)
+        {
+            return "Preto";
+        }
+        else if (player == Player.White)
+        {
+            return "Branco";
+        }
+
+        return "Nenhum";
+    }
 }
